@@ -36,8 +36,8 @@ function AddTask() {
           height: "46px",
           borderRadius: "12px",
           border: "1px solid #3f3f46",
-          backgroundColor: "#18181b",
-          color: "#ffffff",
+          
+          color: "black",
           padding: "0 16px",
           fontSize: "15px",
           outline: "none",

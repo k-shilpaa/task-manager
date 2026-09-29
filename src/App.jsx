@@ -12,7 +12,7 @@ function App() {
     <div
       style={{
         minHeight: "100vh",
-        backgroundColor: "#09090b", // Deep global dark-mode backdrop
+        
         color: "#ffffff",
         fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
         padding: "40px 20px",
@@ -26,8 +26,8 @@ function App() {
         style={{
           width: "100%",
           maxWidth: "640px",
-          backgroundColor: "#111113",
-          border: "1px solid #1e1e21",
+          // backgroundColor: "#111113",
+          // border: "1px solid #1e1e21",
           borderRadius: "16px",
           padding: "32px",
           boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3)",
@@ -50,9 +50,9 @@ function App() {
               fontWeight: "700",
               margin: 0,
               letterSpacing: "-0.5px",
-              background: "linear-gradient(to right, #ffffff, #a1a1aa)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
+              
+              color:"black",
+              
             }}
           >
             Redux Task Manager

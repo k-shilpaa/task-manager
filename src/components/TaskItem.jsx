@@ -11,7 +11,7 @@ function TaskItem({ task }) {
         alignItems: "center",
         justifyContent: "space-between",
         padding: "14px 18px",
-        backgroundColor: "#18181b",
+        color:"black",
         border: "1px solid #27272a",
         borderRadius: "12px",
         marginBottom: "12px",
@@ -28,7 +28,7 @@ function TaskItem({ task }) {
         style={{
           flex: "1",
           fontSize: "15px",
-          color: task?.completed ? "#71717a" : "#ffffff",
+          color: task?.completed ? "#71717a" : "black",
           textDecoration: task?.completed ? "line-through" : "none",
           overflow: "hidden",
           textOverflow: "ellipsis",

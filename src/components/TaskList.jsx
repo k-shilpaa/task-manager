@@ -32,7 +32,7 @@ function TaskList() {
             fontSize: "15px",
             border: "1px dashed #27272a",
             borderRadius: "12px",
-            backgroundColor: "#111113",
+            
           }}
         >
           No {filter !== "all" ? filter : ""} tasks found.
